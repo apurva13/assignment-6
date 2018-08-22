@@ -15,10 +15,11 @@ def perfect(n):
         if(n%i==0):
             add=add+i
         i+=1
-        
     if add==n and n!=1:
          print (n,'is a perfect number')
 
+         
+print('The Perfect Numbers are:')
 for i in range (1,1000):
     perfect(i)
 
